@@ -1,0 +1,45 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Spotlight, Time Machine
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+*.tmp
+*.log
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo

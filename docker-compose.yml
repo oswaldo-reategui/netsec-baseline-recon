@@ -1,0 +1,15 @@
+services:
+  nmap:
+    image: instrumentisto/nmap:latest
+    container_name: nmap-recon
+    network_mode: host
+    cap_add:
+      - NET_RAW
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+    stdin_open: true
+    tty: true
+    entrypoint: ["sh"]
